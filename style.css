@@ -76,11 +76,11 @@ select {
     cursor: pointer;
 }
 
-.btn:hover,
+/* .btn:hover,
  .btn:focus {
     color: var(--clr-accent);
     background-color: var(--clr-primary);
- }
+ } */
 
  :focus {
     outline: 5px; stroke-linecap: var(--clr-accent);
