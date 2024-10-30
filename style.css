@@ -25,6 +25,7 @@ GENERAL STYLES
 
  body{
     min-height: 100vh;
+    min-width: 80vw;
     font-family: var(--ff-body);
     font-weight: var(--fw-body);
     font-size: 1.25rem;
@@ -42,11 +43,14 @@ GENERAL STYLES
     /* justify-content: space-between; */
     flex-direction: column;
     justify-content:center;
-    align-items: center;
+    align-items: left;
     padding: 0.75rem;
     gap: 1rem;
     /* border: 2px solid orange; */
 }
+/* .input-section button .btn{
+   padding: 12px;
+} */
 
 .input-section label{
     font-weight: bold;
@@ -89,7 +93,9 @@ select {
 
 .list-expense {
     margin: 1.25rem;
-    /* border: 2px solid lime; */
+    /* max-width: 75%;
+    border: 2px solid lime;
+    padding-bottom: 2rem; */
 }
 
 table {
